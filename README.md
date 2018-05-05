@@ -1,2 +1,0 @@
-# ProyectoNora
-proyecto final
