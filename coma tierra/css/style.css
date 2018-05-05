@@ -1,0 +1,202 @@
+
+#principal{           /*class de interfaz principal (fondo) */
+	width:  900px;
+	height: auto; overflow:  hidden;
+	border:  3px solid #000;
+	margin:  auto;
+	padding: 0px 12px;
+	background-color:#FFFFFF;
+	background-image: none;
+}
+
+/*--------------------------------------------------------*/
+
+
+#logo { /* class del logo de la pag */
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 46%;
+    
+}
+
+/*--------------------------------------------------------*/
+.menu{ 
+	width: 858px;
+	height: 50px;
+	border: 2px solid #ccc;	
+	float: right;
+	margin-top: 20px;
+	background: #006699;
+	padding: 5px 20px;
+}
+
+.menu ul li {
+    background-color:#006699;
+
+}
+
+.menu ul {
+    list-style:none;
+    margin:0;
+    padding: 7px 15px 10px 150px;
+
+}
+
+.menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:17px;
+    padding:10px;
+    font-style: oblique;
+  text-transform:uppercase;
+  letter-spacing:0px;
+}
+
+.menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.menu ul li:hover {
+    background:#5b78a7;
+}
+
+.menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+
+.menu ul ul li {
+    float:none;
+    width:150px
+}
+
+.menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+.menu ul li:hover > ul {
+    display:block;
+}
+
+/*--------------------------------------------------------*/
+ /*class de la imagen principal*/
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 500%;	
+	animation: cambio 13s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+	
+}
+
+.slider img {
+	width: 100%;	
+	
+	
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+	
+
+
+/*--------------------------------------------------------*/
+#ImgReferencia{ /*class de imagenes de ejemplo en "reseñas" */
+	width:  900px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin-top:  10px;
+	
+}
+/*--------------------------------------------------------*/
+.uno{ /* class de recuadros de reseñas */
+	width: 288;
+	height: 450;
+	border: 2px solid;
+	float: left;	
+	text-align: center;
+	background-color:#FFFFFF;
+}
+
+.dos{ /* class de recuadros de reseñas */
+
+	margin-left: 12px;
+	margin-right: 12px;
+	
+}
+
+/*--------------------------------------------------------*/
+.Leermas{ /*class de botones leer mas */
+	border: 2px solid #006699;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	
+	margin: 10px;
+
+
+}
+
+.Leermas:hover{ /*sombras del cursos */
+	background:  #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+	
+}
+/*--------------------------------------------------------*/
+footer{ /*pie de pagina y derechos */
+	
+	text-align: center;
+	font-size: 14px;
+
+
+}
+
+#footer p{
+	width: 500px;
+
+}
+
+ /*--------------------------------------------------------*/
+.tabla-a{
+	text-align: center;
+	padding: 10px 100px;
+	font-size: 14px;
+	padding-top: 30px;
+  
+}
+
+/*--------------------------------------------------------*/
